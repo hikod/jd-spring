@@ -1,11 +1,10 @@
-package com.cydeo.streotype_annotation;
+package com.cydeo.stereotype_annotation;
 
 import org.springframework.stereotype.Component;
 
 @Component
 public class Selenium {
-
     public void getTeachingHours(){
-        System.out.println("Total teaching hours: 200");
+        System.out.println("Total teaching hours : 200");
     }
 }
