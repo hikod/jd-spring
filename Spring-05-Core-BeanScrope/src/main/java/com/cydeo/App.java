@@ -15,5 +15,11 @@ public class App {
         ApplicationContext context = new AnnotationConfigApplicationContext(ProjectConfig.class);
         CommentService commentService = context.getBean(CommentService.class);
         commentService.publishComment(comment);
+
+        CommentService cs1 = context.getBean(CommentService.class);
+        CommentService cs2 = context.getBean(CommentService.class);
+        System.out.println(cs1);
+        System.out.println(cs2);
+        System.out.println(cs1 == cs2); //  memory location is the same so Spring uses Singleton (Default) scope
     }
 }
