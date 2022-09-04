@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class CarController {
 
     @RequestMapping("/info")
-    public String showCarInfo(@RequestParam(value = "make", defaultValue = "Tesla") String make, Model model){
+    public String showCarInfo(@RequestParam(value = "make", defaultValue = "Tesla", required = false) String make, Model model){
 
         model.addAttribute("make", make);
 
