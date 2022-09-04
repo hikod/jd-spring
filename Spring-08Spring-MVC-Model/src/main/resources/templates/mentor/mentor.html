@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td th:text="${mentors.get(0).getFirstName()}"></td>
+        <td th:text="${mentors.get(0).getLastName()}"></td>
+        <td th:text="${mentors.get(0).getAge()}"></td>
+        <td th:text="${mentors.get(0).getGender()}"></td>
+    </tr>
+    <tr>
+        <td th:text="${mentors.get(1).getFirstName()}"></td>
+        <td th:text="${mentors.get(1).getLastName()}"></td>
+        <td th:text="${mentors.get(1).getAge()}"></td>
+        <td th:text="${mentors.get(1).getGender()}"></td>
+    </tr>
+</table>
+</body>
+</html>
