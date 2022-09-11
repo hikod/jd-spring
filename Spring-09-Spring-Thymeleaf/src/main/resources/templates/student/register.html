@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Welcome </title>
+</head>
+
+<body>
+<h2>Welcome New Student</h2>
+
+<h2 th:text="${students.get(0).getFirstName()}"></h2>
+<h2 th:text="${students.get(0).getLastName()}"></h2>
+<h2 th:text="${students.get(0).getAge()}"></h2>
+
+</body>
+</html>
