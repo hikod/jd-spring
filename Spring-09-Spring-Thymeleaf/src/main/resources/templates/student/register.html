@@ -29,6 +29,11 @@
     <li th:each="student : ${students}" th:text="${student.getFirstName()}">Iteration</li>
 </ul>
 
-
+<!--Conditional logic-->
+<div th:text="${students.get(0).getAge() > 25 ? 'ELIGIBLE' : 'NOT ELIGIBLE'}">
+<div>
+    <span th:if="${students.get(0).getState() == 'Arizona'}">Arizona</span>
+    <span th:unless="${students.get(0).getState() == 'Arizona'}">Not Arizona</span>
+</div>
 </body>
 </html>
