@@ -6,10 +6,48 @@
 </head>
 
 <body>
-
-
-
-
+<form style="text-align: center;" th:object="${mentor}">
+    <h1>Mentor Registration</h1>
+    <div style="margin: 10px">
+        <label for="firstname">First Name:</label>
+        <input id="firstname" type="text">
+    </div>
+    <div style="margin: 10px">
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" type="text">
+    </div>
+    <div style="margin: 10px">
+        <label for="email">Email:</label>
+        <input id="email" type="email">
+    </div>
+    <div style="margin: 10px">
+        <label for="graduated">Graduated:</label>
+        <input type="checkbox" name="graduated" id="graduated">
+    </div>
+    <div style="margin: 10px"> Gender:
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+    </div>
+    <div style="margin: 10px">
+        <label for="batch">Batch Number:</label>
+        <select name="batch" id="batch" value="Select">
+            <option disabled selected >Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+    </div>
+    <div style="margin: 10px">
+        <label for="company">Company:</label>
+        <textarea name="company" id="company" ></textarea>
+    </div>
+    <button id="register" type="submit">Register</button>
+</form>
 
 </body>
 </html>
