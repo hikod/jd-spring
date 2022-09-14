@@ -6,45 +6,39 @@
 </head>
 
 <body>
-<form style="text-align: center;" th:object="${mentor}">
+<form th:action="@{/mentor/confirm}" method="post" style="text-align: center;" th:object="${mentor}">
     <h1>Mentor Registration</h1>
     <div style="margin: 10px">
         <label for="firstname">First Name:</label>
-        <input id="firstname" type="text">
+        <input id="firstname" type="text" th:field="*{firstName}">
     </div>
     <div style="margin: 10px">
         <label for="lastname">Last Name:</label>
-        <input id="lastname" type="text">
+        <input id="lastname" type="text" th:field="*{lastName}">
     </div>
     <div style="margin: 10px">
         <label for="email">Email:</label>
-        <input id="email" type="email">
+        <input id="email" type="email" th:field="*{email}">
     </div>
     <div style="margin: 10px">
         <label for="graduated">Graduated:</label>
-        <input type="checkbox" name="graduated" id="graduated">
+        <input type="checkbox" name="graduated" id="graduated" th:field="*{graduated}">
     </div>
     <div style="margin: 10px"> Gender:
-            <input type="radio" id="male" name="gender">
+            <input type="radio" id="male" name="gender" value="Male" th:field="*{gender}">
             <label for="male">Male</label>
-            <input type="radio" id="female" name="gender">
+            <input type="radio" id="female" name="gender" value="Female" th:field="*{gender}">
             <label for="female">Female</label>
     </div>
     <div style="margin: 10px">
         <label for="batch">Batch Number:</label>
-        <select name="batch" id="batch" value="Select">
-            <option disabled selected >Select</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
+        <select name="batch" id="batch" value="Select" th:field="*{batch}">
+            <option th:each="batch : ${batchList}" th:value="${batch}" th:text="${batch}"></option>
         </select>
     </div>
     <div style="margin: 10px">
         <label for="company">Company:</label>
-        <textarea name="company" id="company" ></textarea>
+        <textarea name="company" id="company" th:field="*{company}"></textarea>
     </div>
     <button id="register" type="submit">Register</button>
 </form>
