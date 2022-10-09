@@ -6,7 +6,7 @@ import javax.persistence.*;
 public class Student {
     @Id
     private Long id;
-    private String firstName;
+    private String firstName; // firstName saved as first_name in the database
     private String lastName;
     private String email;
 }
