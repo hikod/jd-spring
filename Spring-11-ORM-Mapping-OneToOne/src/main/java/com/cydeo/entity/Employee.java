@@ -24,6 +24,10 @@ public class Employee extends BaseEntity{
     @Enumerated(EnumType.STRING)
     private Gender gender;
 
+    @OneToOne
+    @JoinColumn(name = "department_id")
+    private Department department;
+
     public Employee(String first_name, String last_name, String email, LocalDate hired_date, int salary, Gender gender) {
         this.first_name = first_name;
         this.last_name = last_name;
