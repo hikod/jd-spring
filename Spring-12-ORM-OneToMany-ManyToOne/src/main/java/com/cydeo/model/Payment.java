@@ -1,6 +1,5 @@
 package com.cydeo.model;
 
-
 import com.cydeo.enums.Status;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,9 +9,9 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
-@NoArgsConstructor
 @Table(name = "payments")
 @Data
+@NoArgsConstructor
 public class Payment {
 
     @Id
@@ -24,6 +23,7 @@ public class Payment {
 
     private BigDecimal amount;
     private Status paymentStatus;
+
 
     @OneToOne(cascade = CascadeType.ALL)
     private PaymentDetail paymentDetail;

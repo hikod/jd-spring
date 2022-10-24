@@ -9,9 +9,10 @@ import java.util.List;
 
 @Entity
 @Table(name = "merchants")
-@NoArgsConstructor
 @Data
+@NoArgsConstructor
 public class Merchant {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -22,8 +23,9 @@ public class Merchant {
     private BigDecimal commissionRate;
     private Integer payoutDelayCount;
 
-    @OneToMany(mappedBy = "merchant") // in OneToMany relationship ownership belongs to Many side
-    private List<Payment> payment;
+    @OneToMany(mappedBy = "merchant")  //in onetomany relationship,ownership belongs to Many side
+    private List<Payment> paymentList;
+
 
     public Merchant(String name, String code, BigDecimal transactionFee, BigDecimal commissionRate, Integer payoutDelayCount) {
         this.name = name;

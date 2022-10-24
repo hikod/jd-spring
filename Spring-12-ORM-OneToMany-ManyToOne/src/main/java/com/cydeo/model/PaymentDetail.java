@@ -8,10 +8,11 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
+@Table(name = "paymentDetails")
 @Data
 @NoArgsConstructor
-@Table(name = "paymentDetails")
 public class PaymentDetail {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -22,7 +23,8 @@ public class PaymentDetail {
     @Column(columnDefinition = "DATE")
     private LocalDate payoutDate;
 
-    @OneToOne(mappedBy = "paymentDetail", cascade = CascadeType.ALL)
+
+    @OneToOne(mappedBy = "paymentDetail",cascade=CascadeType.ALL)
     @JoinColumn(name = "payment_id")
     private Payment payment;
 

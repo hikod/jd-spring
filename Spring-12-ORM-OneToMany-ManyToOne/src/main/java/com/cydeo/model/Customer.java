@@ -8,9 +8,10 @@ import java.util.List;
 
 @Entity
 @Table(name = "customers")
-@NoArgsConstructor
 @Data
+@NoArgsConstructor
 public class Customer {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -21,6 +22,9 @@ public class Customer {
     private String email;
     private String address;
 
+    @OneToMany(mappedBy = "customer",fetch = FetchType.LAZY)
+    private List<Payment> paymentList;
+
     public Customer(String userName, String name, String surName, String email, String address) {
         this.userName = userName;
         this.name = name;
@@ -28,7 +32,4 @@ public class Customer {
         this.email = email;
         this.address = address;
     }
-
-    @OneToMany(mappedBy = "customer")
-    private List<Payment> paymentList;
 }
