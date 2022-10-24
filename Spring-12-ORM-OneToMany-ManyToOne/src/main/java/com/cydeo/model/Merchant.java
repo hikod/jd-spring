@@ -24,4 +24,12 @@ public class Merchant {
 
     @OneToMany(mappedBy = "merchant") // in OneToMany relationship ownership belongs to Many side
     private List<Payment> payment;
+
+    public Merchant(String name, String code, BigDecimal transactionFee, BigDecimal commissionRate, Integer payoutDelayCount) {
+        this.name = name;
+        this.code = code;
+        this.transactionFee = transactionFee;
+        this.commissionRate = commissionRate;
+        this.payoutDelayCount = payoutDelayCount;
+    }
 }
