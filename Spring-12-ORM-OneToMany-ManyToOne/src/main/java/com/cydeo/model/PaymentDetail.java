@@ -10,6 +10,7 @@ import java.time.LocalDate;
 @Entity
 @Data
 @NoArgsConstructor
+@Table(name = "paymentDetails")
 public class PaymentDetail {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,4 +22,13 @@ public class PaymentDetail {
     @Column(columnDefinition = "DATE")
     private LocalDate payoutDate;
 
+    @OneToOne(mappedBy = "paymentDetail", cascade = CascadeType.ALL)
+    @JoinColumn(name = "payment_id")
+    private Payment payment;
+
+    public PaymentDetail(BigDecimal merchantPayoutAmount, BigDecimal commissionAmount, LocalDate payoutDate) {
+        this.merchantPayoutAmount = merchantPayoutAmount;
+        this.commissionAmount = commissionAmount;
+        this.payoutDate = payoutDate;
+    }
 }
