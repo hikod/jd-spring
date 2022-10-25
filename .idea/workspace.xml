@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e3a6c85-52bd-4a5b-b9f3-88647820afe4" name="Changes" comment="renaming column names for many to main" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2DkiS73yrsx9P2jpgrjPM6kAFLs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hdogrul/IdeaProjects/jd-spring/Spring-10-ORM-TableCreation/src/main/java/com/cydeo&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bd0f9735c9f87cb0ee8a7e3b5a144095&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;,
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cydeo.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/cydeo" />
+      <recent name="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/entity" />
+      <recent name="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/cydeo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bank-simulation-app/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/bank-simulation-app/src/main/resources/templates/account" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cydeo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cydeo.enums" />
+      <recent name="com.cydeo.service" />
+      <recent name="com.cydeo" />
+      <recent name="com.cydeo.model" />
+      <recent name="com.cydeo.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Spring12OrmOneToManyManyToOneApplication">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.App" />
+      <module name="Spring-05-Core-BeanScrope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.MyApp" />
+      <module name="ClassExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.MyApp" />
+      <module name="Spring-02-Core-Wiring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.MyApp" />
+      <module name="Spring-03-Core-DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.Runner" />
+      <module name="bank-simulation-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.Test" />
+      <module name="bank-simulation-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.cydeo.stereotype_annotation.MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.stereotype_annotation.MyApp" />
+      <module name="Spring-01-Core-IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.stereotype_annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jd-spring/Spring-09-Spring-Thymeleaf/templates/student/register.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="BankSimulationAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bank-simulation-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.BankSimulationAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-07-Spring-MVC-Controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.ControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring06SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-06-SpringBoot-Demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.MyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring08SpringMvcModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-08-Spring-MVC-Model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring08SpringMvcModelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring09SpringThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-09-Spring-Thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring09SpringThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring10OrmTableCreationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-10-ORM-TableCreation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring10OrmTableCreationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring11OrmMappingOneToOneApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-11-ORM-Mapping-OneToOne" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring11OrmMappingOneToOneApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring12OrmOneToManyManyToOneApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-12-ORM-OneToMany-ManyToOne" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring12OrmOneToManyManyToOneApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring13OrmCinemaLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-13-ORM-CinemaLab" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring13OrmCinemaLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JavaScript Debug.register.html" />
+        <item itemvalue="Application.com.cydeo.stereotype_annotation.MyApp" />
+        <item itemvalue="Application.MyApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e3a6c85-52bd-4a5b-b9f3-88647820afe4" name="Changes" comment="" />
+      <created>1661249479881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661249479881</updated>
+      <workItem from="1661249480991" duration="4000000" />
+      <workItem from="1661268718771" duration="5270000" />
+      <workItem from="1661460855603" duration="32226000" />
+      <workItem from="1661940226308" duration="4491000" />
+      <workItem from="1662027853100" duration="33967000" />
+      <workItem from="1662801030345" duration="19000" />
+      <workItem from="1662801546554" duration="8501000" />
+      <workItem from="1662832715185" duration="46718000" />
+      <workItem from="1663124623240" duration="139000" />
+      <workItem from="1663125032060" duration="1251000" />
+      <workItem from="1663127402320" duration="14792000" />
+      <workItem from="1663441367588" duration="9000" />
+      <workItem from="1663441505443" duration="598000" />
+      <workItem from="1663520208032" duration="3594000" />
+      <workItem from="1664108738021" duration="601000" />
+      <workItem from="1664292768220" duration="599000" />
+      <workItem from="1664329094980" duration="6950000" />
+      <workItem from="1664875814379" duration="18977000" />
+      <workItem from="1665609776406" duration="597000" />
+      <workItem from="1665613225171" duration="598000" />
+      <workItem from="1665661548385" duration="1816000" />
+      <workItem from="1666123606044" duration="15485000" />
+      <workItem from="1666587352590" duration="11041000" />
+    </task>
+    <task id="LOCAL-00036" summary="adding some pre defined js and css">
+      <created>1662935037454</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1662935037454</updated>
+    </task>
+    <task id="LOCAL-00037" summary="adding some pre defined js and css">
+      <created>1662946494998</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1662946494998</updated>
+    </task>
+    <task id="LOCAL-00038" summary="displaying img tag in thymeleaf">
+      <created>1662947338125</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1662947338125</updated>
+    </task>
+    <task id="LOCAL-00039" summary="custom class for css">
+      <created>1662947433125</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1662947433125</updated>
+    </task>
+    <task id="LOCAL-00040" summary="thymeleaf fragment">
+      <created>1662948107619</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1662948107619</updated>
+    </task>
+    <task id="LOCAL-00041" summary="thymeleaf fragment">
+      <created>1662948422473</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1662948422473</updated>
+    </task>
+    <task id="LOCAL-00042" summary="refactoring the table for the mentors">
+      <created>1663073064248</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1663073064248</updated>
+    </task>
+    <task id="LOCAL-00043" summary="conditional rendering">
+      <created>1663079308997</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1663079308997</updated>
+    </task>
+    <task id="LOCAL-00044" summary="adding external property key name into the thymeleaf">
+      <created>1663118898358</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1663118898358</updated>
+    </task>
+    <task id="LOCAL-00045" summary="adding mentor model">
+      <created>1663119860267</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1663119860267</updated>
+    </task>
+    <task id="LOCAL-00046" summary="adding mentor controller &amp; thymeleaf">
+      <created>1663120212655</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1663120212655</updated>
+    </task>
+    <task id="LOCAL-00047" summary="adding some html and using Mentor inside the thymeleaf">
+      <created>1663123449352</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1663123449352</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Post mapping">
+      <created>1663127976460</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1663127976460</updated>
+    </task>
+    <task id="LOCAL-00049" summary="redirection">
+      <created>1663129078887</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1663129078887</updated>
+    </task>
+    <task id="LOCAL-00050" summary="ORM initial commit">
+      <created>1665275027658</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1665275027659</updated>
+    </task>
+    <task id="LOCAL-00051" summary="adding h2 properties file and basic inserting employee">
+      <created>1665283671652</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1665283671652</updated>
+    </task>
+    <task id="LOCAL-00052" summary="adding Employee and Student Entities">
+      <created>1665287798679</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1665287798679</updated>
+    </task>
+    <task id="LOCAL-00053" summary="naming convension">
+      <created>1665288101457</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1665288101458</updated>
+    </task>
+    <task id="LOCAL-00054" summary="primary key automatic id creation">
+      <created>1665452382134</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1665452382134</updated>
+    </task>
+    <task id="LOCAL-00055" summary="adding gender enum and column annotation">
+      <created>1665454160881</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1665454160881</updated>
+    </task>
+    <task id="LOCAL-00056" summary="inheritance &amp; mapping super class">
+      <created>1665455069780</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1665455069780</updated>
+    </task>
+    <task id="LOCAL-00057" summary="adding Car entity">
+      <created>1665455999109</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1665455999110</updated>
+    </task>
+    <task id="LOCAL-00058" summary="adding Car repo">
+      <created>1665456015568</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1665456015568</updated>
+    </task>
+    <task id="LOCAL-00059" summary="modifying Car entity and adding command line to save the car objects">
+      <created>1665456173120</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1665456173120</updated>
+    </task>
+    <task id="LOCAL-00060" summary="updating the application properties">
+      <created>1665456286041</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1665456286041</updated>
+    </task>
+    <task id="LOCAL-00061" summary="initial commit">
+      <created>1666182543812</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1666182543812</updated>
+    </task>
+    <task id="LOCAL-00062" summary="enum for gender">
+      <created>1666183682395</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1666183682395</updated>
+    </task>
+    <task id="LOCAL-00063" summary="adding base entity and Employees table">
+      <created>1666184040690</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1666184040690</updated>
+    </task>
+    <task id="LOCAL-00064" summary=" adding Department table">
+      <created>1666185356501</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1666185356501</updated>
+    </task>
+    <task id="LOCAL-00065" summary="creating postgres connection">
+      <created>1666185480903</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1666185480903</updated>
+    </task>
+    <task id="LOCAL-00066" summary="adding the Employee and Department Repos">
+      <created>1666185609331</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1666185609331</updated>
+    </task>
+    <task id="LOCAL-00067" summary="adding data generator">
+      <created>1666187686502</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1666187686502</updated>
+    </task>
+    <task id="LOCAL-00068" summary="one to one mapping">
+      <created>1666190001677</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1666190001677</updated>
+    </task>
+    <task id="LOCAL-00069" summary="adding region entity and one to one mapping">
+      <created>1666192619353</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1666192619353</updated>
+    </task>
+    <task id="LOCAL-00070" summary="initial commit">
+      <created>1666587263646</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1666587263646</updated>
+    </task>
+    <task id="LOCAL-00071" summary="adding Status enum">
+      <created>1666587515593</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1666587515593</updated>
+    </task>
+    <task id="LOCAL-00072" summary="adding PAyment repo">
+      <created>1666587862008</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1666587862008</updated>
+    </task>
+    <task id="LOCAL-00073" summary="adding models payment and payment details">
+      <created>1666587885202</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1666587885202</updated>
+    </task>
+    <task id="LOCAL-00074" summary="adding data generator">
+      <created>1666587908309</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1666587908309</updated>
+    </task>
+    <task id="LOCAL-00075" summary="adding Entity tag and defining column names for Payment &amp; Payment Details">
+      <created>1666588350379</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1666588350379</updated>
+    </task>
+    <task id="LOCAL-00076" summary="adding sample data and creating the one to one relationship">
+      <created>1666590035100</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1666590035100</updated>
+    </task>
+    <task id="LOCAL-00077" summary="adding OneToMany relationship and creating Merchant entity">
+      <created>1666592007394</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1666592007394</updated>
+    </task>
+    <task id="LOCAL-00078" summary="adding merchant repo">
+      <created>1666593307473</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1666593307473</updated>
+    </task>
+    <task id="LOCAL-00079" summary="adding Customer entity">
+      <created>1666593724841</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1666593724841</updated>
+    </task>
+    <task id="LOCAL-00080" summary="updating data generator">
+      <created>1666596192438</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1666596192438</updated>
+    </task>
+    <task id="LOCAL-00081" summary="adding Cart and Item entities as well as repositories">
+      <created>1666596612041</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1666596612041</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Many to Many relationship">
+      <created>1666597227536</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1666597227536</updated>
+    </task>
+    <task id="LOCAL-00083" summary="adding items and cart object in Data generator">
+      <created>1666597400239</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1666597400239</updated>
+    </task>
+    <task id="LOCAL-00084" summary="renaming column names for many to main">
+      <created>1666597904817</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1666597904817</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding Car repo" />
+    <MESSAGE value="modifying Car entity and adding command line to save the car objects" />
+    <MESSAGE value="updating the application properties" />
+    <MESSAGE value="enum for gender" />
+    <MESSAGE value="adding base entity and Employees table" />
+    <MESSAGE value=" adding Department table" />
+    <MESSAGE value="creating postgres connection" />
+    <MESSAGE value="adding the Employee and Department Repos" />
+    <MESSAGE value="one to one mapping" />
+    <MESSAGE value="adding region entity and one to one mapping" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="adding Status enum" />
+    <MESSAGE value="adding PAyment repo" />
+    <MESSAGE value="adding models payment and payment details" />
+    <MESSAGE value="adding data generator" />
+    <MESSAGE value="adding Entity tag and defining column names for Payment &amp; Payment Details" />
+    <MESSAGE value="adding sample data and creating the one to one relationship" />
+    <MESSAGE value="adding OneToMany relationship and creating Merchant entity" />
+    <MESSAGE value="adding merchant repo" />
+    <MESSAGE value="adding Customer entity" />
+    <MESSAGE value="updating data generator" />
+    <MESSAGE value="adding Cart and Item entities as well as repositories" />
+    <MESSAGE value="Many to Many relationship" />
+    <MESSAGE value="adding items and cart object in Data generator" />
+    <MESSAGE value="renaming column names for many to main" />
+    <option name="LAST_COMMIT_MESSAGE" value="renaming column names for many to main" />
+  </component>
+</project>
